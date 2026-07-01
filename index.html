@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Professional student portfolio of Soumadip Chakrabarty, B.Tech Computer Science Engineering Student at Medi-Caps University, Indore. Python Developer, AWS Enthusiast, and AI Learner.">
+  <meta name="author" content="Soumadip Chakrabarty">
+  <meta name="keywords" content="Soumadip Chakrabarty, Portfolio, Computer Science student, Python Developer, AWS, AI, Medi-Caps University, Indore">
+  
+  <title>Soumadip Chakrabarty | Student Portfolio</title>
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="index.css">
+  
+  <!-- FontAwesome CDN for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Background Canvas for Interactive Particles -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-progress"></div>
+
+  <!-- Header Navigation -->
+  <header class="navbar">
+    <a href="#home" class="nav-logo" id="logo">
+      Soumadip<span>.</span>
+    </a>
+    
+    <div class="nav-links-container">
+      <nav class="nav-menu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#portfolio" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      
+      <!-- Theme Switcher -->
+      <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle Theme" title="Switch to Light Mode">
+        <i class="fas fa-sun"></i>
+      </button>
+    </div>
+
+    <!-- Mobile Hamburger Menu Button -->
+    <button class="hamburger" aria-label="Menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <!-- Home/Hero Section -->
+  <section id="home" class="hero">
+    <!-- Floating Social Links Left -->
+    <div class="hero-social-left">
+      <a href="https://github.com/chakraborty9589-creator" target="_blank" rel="noopener noreferrer" class="hero-social-link" title="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/soumadip-chakrabarty-633827385/" target="_blank" rel="noopener noreferrer" class="hero-social-link" title="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="mailto:chakraborty8120@gmail.com" class="hero-social-link" title="Email">
+        <i class="far fa-envelope"></i>
+      </a>
+    </div>
+
+    <div class="hero-grid">
+      <div class="hero-content">
+        <span class="hero-welcome">Welcome to my space</span>
+        <h1 class="hero-name">Soumadip Chakrabarty</h1>
+        
+        <div class="hero-title-wrapper">
+          I'm a <span class="hero-typewriter" id="typewriter">Python Developer</span>
+        </div>
+        
+        <div class="hero-university">
+          <i class="fas fa-university"></i>
+          <span>Medi-Caps University, Indore</span>
+        </div>
+        
+        <p class="hero-desc">
+          Passionate Computer Science Engineering student enthusiastic about technology, continuous learning, problem-solving, and building creative projects.
+        </p>
+        
+        <div class="hero-actions">
+          <a href="#skills" class="btn btn-primary">
+            <span>View Skills</span>
+            <i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        </div>
+      </div>
+
+
+    </div>
+
+    <!-- Mouse Scroll Down Indicator -->
+    <div class="scroll-down">
+      <span>Scroll Down</span>
+      <div class="scroll-down-mouse">
+        <div class="scroll-down-wheel"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section reveal">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-grid">
+      <div class="about-highlight-box glass-card">
+        <p>
+          "I am Soumadip Chakrabarty, a B.Tech Computer Science Engineering student at Medi-Caps University, Indore. I am enthusiastic about technology and enjoy learning new skills, solving problems, and working on creative projects. I am always eager to explore new opportunities, gain practical experience, and continue growing both personally and professionally."
+        </p>
+      </div>
+      
+      <div class="about-details">
+        <p class="text-secondary">
+          My journey in Computer Science is driven by a deep curiosity about how software shapes the world. Currently, I am laying solid foundations in algorithmic problem solving, cloud architecture, and artificial intelligence. 
+        </p>
+        <p class="text-secondary">
+          Beyond programming, my creative passions for photography and videography allow me to combine technical precision with visual storytelling. I believe this unique blend of logic and creativity helps me design more intuitive and beautiful software solutions.
+        </p>
+        
+        <div class="about-stats">
+          <div class="stat-card glass-card">
+            <div class="stat-number">2029</div>
+            <div class="stat-label">Expected Graduation</div>
+          </div>
+          <div class="stat-card glass-card">
+            <div class="stat-number">5+</div>
+            <div class="stat-label">Core Tech Focuses</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section reveal">
+    <h2 class="section-title">Education</h2>
+    <div class="education-timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card glass-card">
+          <div class="timeline-date">2025 - 2029 (Expected)</div>
+          <h3 class="timeline-title">Bachelor of Technology (B.Tech)</h3>
+          <p class="timeline-school">Medi-Caps University, Indore</p>
+          <p class="timeline-desc">Major in Computer Science Engineering. Developing core foundational knowledge in software design, database systems, object-oriented concepts, and computational theory.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section reveal">
+    <h2 class="section-title">Skills & Expertise</h2>
+    <div class="skills-container">
+      <!-- Technical Skills Column -->
+      <div class="skills-column glass-card" style="padding: 40px;">
+        <h3 class="skills-column-title">
+          <i class="fas fa-code"></i>
+          <span>Technical Skills</span>
+        </h3>
+        <div class="skills-list">
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">Python Programming</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress-bar" data-progress="85%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">HTML5 & Semantic Markup</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress-bar" data-progress="90%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">CSS3 & Layouts (Grid/Flexbox)</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress-bar" data-progress="80%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">AWS Cloud Fundamentals</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress-bar" data-progress="75%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">Artificial Intelligence Fundamentals</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress-bar" data-progress="70%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Creative and Soft Skills Column -->
+      <div class="creative-soft-grid">
+        <div class="creative-skills-box glass-card">
+          <h3 class="skills-column-title">
+            <i class="fas fa-paint-brush"></i>
+            <span>Creative Skills</span>
+          </h3>
+          <div class="creative-chips">
+            <span class="skill-chip"><i class="fas fa-video"></i> Videography</span>
+            <span class="skill-chip"><i class="fas fa-camera"></i> Photography</span>
+          </div>
+        </div>
+
+        <div class="soft-skills-box glass-card">
+          <h3 class="skills-column-title">
+            <i class="fas fa-user-friends"></i>
+            <span>Soft Skills</span>
+          </h3>
+          <div class="soft-chips">
+            <span class="skill-chip"><i class="fas fa-lightbulb"></i> Problem Solving</span>
+            <span class="skill-chip"><i class="fas fa-users"></i> Teamwork</span>
+            <span class="skill-chip"><i class="fas fa-comments"></i> Communication</span>
+            <span class="skill-chip"><i class="fas fa-graduation-cap"></i> Continuous Learning</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects / Portfolio Section -->
+  <section id="portfolio" class="section reveal">
+    <h2 class="section-title">Projects</h2>
+    <p class="portfolio-intro">Explore some of the concepts I am developing. While I'm building more complex systems, here is what is in the pipeline.</p>
+    
+    <div class="coming-soon-banner">
+      <div class="coming-soon-badge">
+        <i class="fas fa-cog"></i>
+        <span>Projects Coming Soon</span>
+      </div>
+    </div>
+
+    <div class="portfolio-grid">
+      <!-- Project 1 -->
+      <article class="project-card glass-card">
+        <div class="project-img-wrapper">
+          <i class="fas fa-laptop-code project-placeholder-icon"></i>
+        </div>
+        <div class="project-card-content">
+          <span class="project-tag">Web Dev</span>
+          <h3 class="project-title">Portfolio Website</h3>
+          <p class="project-desc">A premium, responsive portfolio showcasing academic achievements, projects, and skills. Built with HTML, CSS, and JS.</p>
+          <div class="project-footer">
+            <i class="far fa-clock"></i>
+            <span>Current Project</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="project-card glass-card">
+        <div class="project-img-wrapper">
+          <i class="fab fa-aws project-placeholder-icon"></i>
+        </div>
+        <div class="project-card-content">
+          <span class="project-tag">Cloud</span>
+          <h3 class="project-title">AWS Cloud Projects</h3>
+          <p class="project-desc">Designing serverless architectures and static hosting templates implementing standard IAM controls and VPC structures.</p>
+          <div class="project-footer">
+            <i class="far fa-clock"></i>
+            <span>In Planning</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="project-card glass-card">
+        <div class="project-img-wrapper">
+          <i class="fas fa-brain project-placeholder-icon"></i>
+        </div>
+        <div class="project-card-content">
+          <span class="project-tag">AI / Python</span>
+          <h3 class="project-title">AI-Based Projects</h3>
+          <p class="project-desc">Exploratory applications leveraging pre-trained API models and Python scripts for data parsing and automated media sorting.</p>
+          <div class="project-footer">
+            <i class="far fa-clock"></i>
+            <span>In Planning</span>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div class="portfolio-note-box glass-card">
+      <i class="fas fa-info-circle"></i>
+      <p>"Passionate about continuous learning, skill development, and staying updated with the latest technological advancements."</p>
+    </div>
+  </section>
+
+  <!-- Services / Open to Collaboration Section -->
+  <section id="services" class="section reveal">
+    <h2 class="section-title">Areas of Growth & Collaboration</h2>
+    <div class="services-grid">
+      <div class="service-card glass-card">
+        <div class="service-icon-box">
+          <i class="fas fa-laptop-code"></i>
+        </div>
+        <h3 class="service-title">Learning Web Development</h3>
+        <p class="service-desc">Mastering advanced CSS concepts, vanilla JS DOM manipulation, and responsive single-page web experiences.</p>
+      </div>
+
+      <div class="service-card glass-card">
+        <div class="service-icon-box">
+          <i class="fas fa-cloud"></i>
+        </div>
+        <h3 class="service-title">Exploring Cloud</h3>
+        <p class="service-desc">Learning cloud deployment processes, storage systems, security groups, and simple server hosting on AWS.</p>
+      </div>
+
+      <div class="service-card glass-card">
+        <div class="service-icon-box">
+          <i class="fas fa-tools"></i>
+        </div>
+        <h3 class="service-title">Building Technical Skills</h3>
+        <p class="service-desc">Deepening programming standards in Python, solving data structure scenarios, and establishing code hygiene.</p>
+      </div>
+
+      <div class="service-card glass-card">
+        <div class="service-icon-box">
+          <i class="fas fa-photo-video"></i>
+        </div>
+        <h3 class="service-title">Creative Content</h3>
+        <p class="service-desc">Designing modern visual content, editing videos, capturing high-quality photographs, and structuring stories.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications" class="section reveal">
+    <h2 class="section-title">Certifications (Future Ready)</h2>
+    <div class="cert-grid">
+      <div class="cert-card glass-card">
+        <i class="fab fa-aws cert-icon"></i>
+        <h3 class="cert-title">AWS Cloud Certifications</h3>
+        <span class="cert-issuer">Amazon Web Services</span>
+        <span class="cert-status-badge">Targeting 2026</span>
+      </div>
+
+      <div class="cert-card glass-card">
+        <i class="fas fa-brain cert-icon"></i>
+        <h3 class="cert-title">AI Fundamentals Certifications</h3>
+        <span class="cert-issuer">Google / DeepLearning.AI</span>
+        <span class="cert-status-badge">Targeting 2026</span>
+      </div>
+
+      <div class="cert-card glass-card">
+        <i class="fas fa-terminal cert-icon"></i>
+        <h3 class="cert-title">Programming Certifications</h3>
+        <span class="cert-issuer">Python Institute / HackerRank</span>
+        <span class="cert-status-badge">Targeting 2026</span>
+      </div>
+
+      <div class="cert-card glass-card">
+        <i class="fas fa-chalkboard-teacher cert-icon"></i>
+        <h3 class="cert-title">Technical Workshops</h3>
+        <span class="cert-issuer">Medi-Caps University</span>
+        <span class="cert-status-badge">Ongoing Participation</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section reveal">
+    <h2 class="section-title">Get in Touch</h2>
+    <div class="contact-container">
+      <div class="contact-info-column">
+        <div class="contact-info-text">
+          <h3>Let's collaborate!</h3>
+          <p>Whether you're looking to discuss projects, academic growth, cloud computing, or creative collaborations, feel free to drop a message or reach out on my socials.</p>
+        </div>
+        
+        <div class="contact-cards-list">
+          <!-- Email Card -->
+          <div class="contact-detail-card glass-card">
+            <div class="contact-detail-content">
+              <div class="contact-detail-icon"><i class="far fa-envelope"></i></div>
+              <div>
+                <span class="contact-detail-label">Email</span>
+                <div class="contact-detail-value">chakraborty8120@gmail.com</div>
+              </div>
+            </div>
+            <button class="copy-btn" data-copy="chakraborty8120@gmail.com" title="Copy to clipboard">
+              <i class="far fa-copy"></i>
+            </button>
+          </div>
+
+          <!-- LinkedIn Card -->
+          <div class="contact-detail-card glass-card">
+            <div class="contact-detail-content">
+              <div class="contact-detail-icon"><i class="fab fa-linkedin-in"></i></div>
+              <div>
+                <span class="contact-detail-label">LinkedIn</span>
+                <div class="contact-detail-value">soumadip-chakrabarty-...</div>
+              </div>
+            </div>
+            <button class="copy-btn" data-copy="https://www.linkedin.com/in/soumadip-chakrabarty-633827385/" title="Copy to clipboard">
+              <i class="far fa-copy"></i>
+            </button>
+          </div>
+
+          <!-- GitHub Card -->
+          <div class="contact-detail-card glass-card">
+            <div class="contact-detail-content">
+              <div class="contact-detail-icon"><i class="fab fa-github"></i></div>
+              <div>
+                <span class="contact-detail-label">GitHub</span>
+                <div class="contact-detail-value">chakraborty9589-creator</div>
+              </div>
+            </div>
+            <button class="copy-btn" data-copy="https://github.com/chakraborty9589-creator" title="Copy to clipboard">
+              <i class="far fa-copy"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="contact-social-icons">
+          <a href="https://github.com/chakraborty9589-creator" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/soumadip-chakrabarty-633827385/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Contact Form Card -->
+      <div class="contact-form-card glass-card">
+        <form id="contact-form" class="contact-form">
+          <div id="form-status" class="form-status"></div>
+          
+          <div class="form-group-row">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" class="form-control" placeholder="xyz" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" class="form-control" placeholder="xyz@example.com" required>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" class="form-control" placeholder="Subject" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" class="form-control" placeholder="message" required></textarea>
+          </div>
+          
+          <button type="submit" class="btn btn-primary" style="margin-top: 10px;">
+            <span>Send Message</span>
+            <i class="far fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-logo">
+          Soumadip<span>.</span>
+        </div>
+        <div class="footer-links">
+          <a href="#home" class="footer-link">Home</a>
+          <a href="#about" class="footer-link">About</a>
+          <a href="#education" class="footer-link">Education</a>
+          <a href="#skills" class="footer-link">Skills</a>
+          <a href="#portfolio" class="footer-link">Projects</a>
+          <a href="#contact" class="footer-link">Contact</a>
+        </div>
+        <div class="footer-socials">
+          <a href="https://github.com/chakraborty9589-creator" target="_blank" rel="noopener noreferrer" class="footer-social-btn">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/soumadip-chakrabarty-633827385/" target="_blank" rel="noopener noreferrer" class="footer-social-btn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Soumadip Chakrabarty. All Rights Reserved.</p>
+        <p>Built with passion <i class="fas fa-heart footer-heart"></i> by Soumadip Chakrabarty</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-to-top" id="scroll-to-top" aria-label="Scroll to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- JavaScript Behavior File -->
+  <script src="index.js"></script>
+</body>
+</html>
